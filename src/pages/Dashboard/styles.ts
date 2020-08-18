@@ -18,6 +18,11 @@ export const Header = styled.View`
   background-color: #28262e;
 `;
 
+/*
+Add a name to the component to find in Flipper and make more easy to debbug
+Header.displayName = 'DashboardHeader';
+*/
+
 export const HeaderTitle = styled.Text`
   color: #f4ede8;
   font-size: 20px;
